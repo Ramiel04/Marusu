@@ -1,0 +1,66 @@
+/* Centered container for the content */
+body {
+    display: flex;
+    justify-content: center;  /* Horizontally center the content */
+    align-items: center;      /* Vertically center the content */
+    height: 100vh;            /* Take the full height of the viewport */
+    margin: 0;                /* Remove any default margin */
+    font-family: Arial, sans-serif;
+    background-color: #000;   /* Black background */
+    color: #fff;              /* Set text color to white for contrast */
+}
+
+/* Style for the main container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* IGN form styled similarly to the login form */
+.ign-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* Center align the input and button horizontally */
+    background-color: #2a9fd6; /* Light blue background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    width: 300px;
+    text-align: center;       /* Ensure the text is centered within the form */
+}
+
+/* Style the input to have the same width as the button */
+.ign-form input, .ign-form button {
+    width: 100%; /* Ensure both input and button are the same width */
+    padding: 10px; /* Add some padding for consistency */
+    font-size: 16px; /* Same font size for both */
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding does not affect the width */
+    text-align: center; /* Center the text inside the input field */
+}
+
+/* Add margin between the input and button */
+.ign-form input {
+    background-color: #fff; /* White background for the input */
+    margin-bottom: 15px;     /* Add margin between the input and button */
+}
+
+/* Button specific styles */
+.ign-form button {
+    background-color: #333;  /* Dark background for the button */
+    color: white;
+    cursor: pointer;
+}
+
+/* Greeting message style */
+#greetingMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+    text-align: center;
+    width: 100%;
+}
