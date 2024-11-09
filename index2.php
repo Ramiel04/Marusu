@@ -90,7 +90,7 @@
             // Do something with the confirmed IGN (like storing it, proceeding to a new page, etc.)
             console.log(`User confirmed their IGN: ${ign}`);
             // Redirect to a new page
-            window.location.href = "index3.php"; // Redirect to newPage.html
+            window.location.href = "index3.html"; // Redirect to newPage.html
         }
 
         function cancelIGN() {
