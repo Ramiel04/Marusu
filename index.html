@@ -13,7 +13,7 @@
     <button id="playButton" onclick="playVideo()">LINK START</button>
 
     <!-- Fullscreen background video -->
-    <video id="backgroundVideo" src="SAO.mp4" muted></video>
+    <video id="backgroundVideo" src="SAO.mp4"></video>
 
     <!-- Hidden login form -->
     <div id="loginForm" class="login-form">
@@ -56,7 +56,7 @@
 
             // Check if credentials match
             if (username === defaultUsername && password === defaultPassword) {
-                // Redirect to a new page (newPage.html)
+                // Redirect to a new page (newPage.php)
                 window.location.href = "index2.html";
             } else {
                 // Display error message
