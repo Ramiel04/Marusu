@@ -57,7 +57,7 @@
             // Check if credentials match
             if (username === defaultUsername && password === defaultPassword) {
                 // Redirect to a new page (newPage.php)
-                window.location.href = "index2.html";
+                window.location.href = "index2.php";
             } else {
                 // Display error message
                 document.getElementById("errorMessage").style.display = "block";
